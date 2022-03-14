@@ -20,7 +20,7 @@ public class ReadProperties {
 	@BeforeClass
 	public static void beforeClass() throws IOException{
 		//create an object for Properties class
-		fis=new FileInputStream(new File("C:\\Users\\Ramrajesh\\workspace\\LTIWebDriverTest\\config.properties"));
+		fis=new FileInputStream(new File("C:\\Users\\sreehari v\\workspace\\LTIWebDriverTest\\config.properties"));
 		prop=new Properties();
 		prop.load(fis);
 		
